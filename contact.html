@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+<title>Contact Us | Mobrin Solutions Ltd — Kitwe &amp; Lusaka, Zambia</title>
+<meta name="description" content="Contact Mobrin Solutions Ltd — Head Office in Nkana West, Kitwe, and Branch Office in Woodlands, Lusaka. Call, WhatsApp or send us your enquiry.">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+    <div class="container header-container">
+        <a href="index.html" class="logo"><img src="assets/logo.png" alt="Mobrin Solutions Ltd"></a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu"><i class="fas fa-bars"></i></button>
+        <nav id="mainNav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="index.html#clients">Our Clients</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="tel:+260212225392" class="btn btn-primary"><i class="fas fa-phone"></i> Call Us</a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<div class="page-banner">
+    <div class="container">
+        <h1>Contact Us</h1>
+        <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+    </div>
+</div>
+
+<section class="section">
+    <div class="container">
+        <div class="contact-grid">
+
+            <div class="reveal">
+                <div class="contact-info-card">
+                    <div class="info-row">
+                        <i class="fas fa-location-dot"></i>
+                        <div>
+                            <h4>Head Office — Kitwe</h4>
+                            <p>Plot No. 34 – 3rd Street, Nkana West, Kitwe, Zambia</p>
+                        </div>
+                    </div>
+                    <div class="info-row">
+                        <i class="fas fa-location-dot"></i>
+                        <div>
+                            <h4>Branch Office — Lusaka</h4>
+                            <p>10 Chifumbule Road, Woodlands, Lusaka, Zambia</p>
+                        </div>
+                    </div>
+                    <div class="info-row">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+260212225392">+260 212 225 392</a><br><a href="tel:+260211269369">+260 211 269 369</a></p>
+                        </div>
+                    </div>
+                    <div class="info-row">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>Mobile / WhatsApp</h4>
+                            <p><a href="tel:+260955513137">+260 955 513 137</a></p>
+                        </div>
+                    </div>
+                    <div class="info-row">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:info@mobrinsolutions.com">info@mobrinsolutions.com</a></p>
+                        </div>
+                    </div>
+                    <div class="info-row">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Monday – Friday: 8:00 AM – 5:00 PM<br>Saturday – Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reveal">
+                <div class="contact-form">
+                    <form id="contactFormElement" action="https://api.web3forms.com/submit" method="POST">
+                        <!-- Replace with a real Web3Forms access key: https://web3forms.com -->
+                        <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+                        <input type="hidden" name="subject" value="New enquiry from Mobrin Solutions website">
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="interest">I'm Interested In</label>
+                                <select id="interest" name="interest" class="form-control">
+                                    <option value="">Select an option</option>
+                                    <option value="Geotechnical Engineering">Geotechnical Engineering Services</option>
+                                    <option value="Site Investigation & Laboratory Testing">Site Investigation &amp; Laboratory Testing</option>
+                                    <option value="Piling & Underpinning">Piling &amp; Underpinning Services</option>
+                                    <option value="Concrete Quality Assurance">Concrete Quality Assurance</option>
+                                    <option value="Construction & Material Engineering">Construction &amp; Material Engineering</option>
+                                    <option value="Borrow Pit Investigation">Borrow Pit Investigation</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" class="form-control" required placeholder="Tell us about your project and site location..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" id="submitBtn" style="width:100%; justify-content:center;">Send Message</button>
+
+                        <div class="success-message" id="successMessage">
+                            Thank you — your message has been sent. Our team will be in touch shortly.
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="map-wrap reveal">
+            <iframe
+                src="https://maps.google.com/maps?q=Plot%20No.34%203rd%20Street%2C%20Nkana%20West%2C%20Kitwe%2C%20Zambia&z=15&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Mobrin Solutions Ltd — Head Office location map">
+            </iframe>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo"><img src="assets/logo.png" alt="Mobrin Solutions Ltd"></div>
+                <p>Zambia's trusted partner for geotechnical investigation, foundation design &amp; piling, materials laboratory testing and construction quality assurance.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://wa.me/260955513137" target="_blank" class="social-icon" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="index.html#clients">Our Clients</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <p><i class="fas fa-location-dot"></i> Plot No. 34 – 3rd Street, Nkana West, Kitwe, Zambia</p>
+                <p><i class="fas fa-phone"></i> +260 212 225 392</p>
+                <p><i class="fab fa-whatsapp"></i> +260 955 513 137</p>
+                <p><i class="fas fa-envelope"></i> info@mobrinsolutions.com</p>
+            </div>
+            <div class="footer-col">
+                <h4>Working Hours</h4>
+                <p>Monday – Friday: 8:00 AM – 5:00 PM</p>
+                <p>Saturday – Sunday: Closed</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Mobrin Solutions Ltd. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+<a href="https://wa.me/260955513137" target="_blank" rel="noopener noreferrer" class="whatsapp-btn" aria-label="Chat with Mobrin Solutions on WhatsApp">
+    <span class="whatsapp-pulse"></span>
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
